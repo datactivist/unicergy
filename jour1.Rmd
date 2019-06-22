@@ -79,7 +79,7 @@ La médiation de données est aussi fondamentalement une animation de communaut�
 
 .center[<img src="./img/phototim.jpg" height="300"/>]
 .center[[**Timothée Gidoin**](timothee.gidoin@sciencespo.fr)]
-.center[[*Twitter: TGidoin*](https://twitter.com/Tgidoin)]
+.center[[*Twitter: @TGidoin*](https://twitter.com/Tgidoin)]
 
 
 - Cofondateur de [**Datagora**](www.datagora.fr)
@@ -156,6 +156,8 @@ class: inverse, center, middle
 
 ---
 ## May the data be with you !
+
+<BR>
 
 .center[<img src="https://media.giphy.com/media/3o7aDgsiRMtIlrSZpu/giphy.gif" height="350"/>]
 
@@ -318,6 +320,8 @@ Class:
 .center[<img src="./img/latour.jpg" height="250"/>] 
 
 ---
+class:center,inverse, middle
+
 ## Petit lexique autour des données
 
 ---
@@ -354,33 +358,6 @@ Ce sont des données non numériques, par exemple du texte, des images, de la vi
 .pull-right[
 ![](img/text_mining_intro_2.png)
 ]
-
----
-## Exemple : les annotations en text mining
-
-> L’annotation (ou l’étiquetage) est une tâche plus spécifiquement linguistique que les précédentes, au sens où elle ne s’applique pas, aux données tabulaires et ne relève donc pas de la fouille de données (data mining)
-
-.center[<img src="./img/text_mining3.png" height="250"/>]
-
-.footnote[Source : [Introduction à la fouille de textes université de Paris 3 - Sorbonne Nouvelle](http://www.lattice.cnrs.fr/sites/itellier/poly_fouille_textes/fouille-textes.pdf)]
----
-## Exemple : les annotations en text mining
-
-> La donnée est exclusivement un texte brut ou un document semi-structuré non
-transformé en tableau : elle est donc composée d’unités respectant au moins
-une relation d’ordre.
-
-> L’ensemble des étiquettes possibles est fini et connu à l’avance au moment où
-le programme est appelé. Le résultat est la donnée initiale dans laquelle chaque unité est associée à une étiquette prise dans l’ensemble des étiquettes possibles 
-
-> L’annotation peut aussi s’appliquer à d’autres données structurées que les textes : .red[on peut ainsi annoter des séquences audio ou vidéo], ou des bases de données XML par exemple. On parlera d’annotation quand la structure de la donnée d’origine se trouve ”reproduite” sur les étiquettes ajoutées par le programme.
-
-.footnote[Source : [Introduction à la fouille de textes université de Paris 3 - Sorbonne Nouvelle](http://www.lattice.cnrs.fr/sites/itellier/poly_fouille_textes/fouille-textes.pdf)]
-
----
-## Exemple : les annotations en text mining
-
-.reduite[![](img/annotation.png)]
 
 ---
 
@@ -435,7 +412,7 @@ Difficilement combinées ou analysées quantitativement
 
 Les données non structurées croitraient 15x plus que les données structurées
  
-Le machine learning est de plus en plus capable d'analyser ces données. *Voir sections 9 et 10*]
+Le machine learning est de plus en plus capable d'analyser ces données.]
 
 .pull-right[
 ![](img/structured-vs-unstructured-data.png)
@@ -474,11 +451,6 @@ Exemple avec les [données de Google Maps](https://www.justinobeirne.com/google-
 Recommandé : Lire l'article ["GOOGLE MAPS’S MOAT - How far ahead of Apple Maps is Google Maps?"](https://www.justinobeirne.com/google-maps-moat)
 
 ---
-class: inverse, center, middle
-
-## 2. Données, données... quelles données ?
-
----
 
 ## Les données crowdsourcées
 
@@ -495,16 +467,6 @@ Concrètement, les données sont issues du travail collaboratif de divers acteur
 .pull-right[
 .reduite[![](img/osm.png)]
 ]
-
----
-## Exemple 1 : OpenStreetMap
-
-> Pourquoi faites-vous OpenStreetMap ? 
-Les données géographiques (géo-données) ne sont pas libres dans nombre de régions du monde, par exemple en France, en Belgique, au Canada. En général, ces régions ont confié la tâche de cartographie à diverses agences gouvernementales, qui en retour font de l'argent en revendant les données à des gens comme vous et moi. Si vous vivez dans un de ces pays, alors vos impôts servent à payer le travail de cartographie
-
-> En France certaines données du ministère des finances (données cadastrales pour l'identification des parcelles) peuvent être réutilisées comme référence, mais avec des conditions qui ne permettent pas une exploitation massive permettant d'obtenir une carte complète (leur précision ne permet pas nécessairement d'identifier tous les chemins, rues et routes qui traversent une même parcelle ; de plus elles ne sont souvent plus à jour).
-
-.footnote[ Source : [La FAQ d'OpenStreetMap](https://wiki.openstreetmap.org/wiki/FR:FAQ#Pourquoi_n.27utilisez_vous_pas_Google_Maps_ou_untel_pour_vos_donn.C3.A9es_.3F)]
 
 ---
 ## Exemple 1 : OpenStreetMap
@@ -551,22 +513,6 @@ Et vous connaissez très probablement une application qui utilise les données d
 .center[[<img src="./img/yuka.png" height="300"/>](https://www.liberation.fr/desintox/2018/05/18/yuka-est-elle-une-appli-publicitaire-deguisee_1651227)]
 
 ---
-## La Grande Annotation 
-
-**L'objectif ?** Faire en sorte que les contributions au grand débat puissent être lues et comprises. Tout un chacun peut, sur le site [grandeannotation.fr](https://grandeannotation.fr/) lire ces textes, classés par thème et par question, et les annoter pour en révéler le sens.
-
-.center[<img src="./img/grande_annotation1.png" height="200"/>]
-
-Plutôt que d'obtenir une synthèse des contributions au grand débat qui soit non collaborative, opaque (car réalisée par quelques sociétés) et en partie traitée par de l'intelligence artificielle, la Grande Annotation veut construire une synthèse collective, transparente et fondée sur l'intelligence humaine.
-
----
-## La Grande Annotation 
-
-**Vous aussi vous pouvez contribuer en annotant les réponses au grand débat !**
-Ce faisant, vous créez de fait de nouvelles données qui viennent qualifier et enrichir les données initiales.
-
-.center[<img src="./img/grande_annotation2.png" height="370"/>]
----
 class: inverse, center, middle
 
 ## 3. Petit lexique autour des données 
@@ -606,8 +552,290 @@ class:center, middle, inverse
 ---
 class: inverse, center, middle
 
-## 2. Open data : les grands principes
+# Open data : les grands principes
 
+---
+## Open data : définition
+
+Selon Wikipedia, une donnée ouverte c'est :
+> une donnée numérique, d'origine publique ou privée, publiée de manière structurée selon une méthodologie qui garantit son libre accès et sa réutilisation par tous, sans restriction.
+**L'ouverture des données est à la fois un mouvement, une philosophie d'accès à l'information et une pratique de publication de données** librement accessibles et exploitables.
+
+Selon [le gouvernement](https://www.gouvernement.fr/action/l-ouverture-des-donnees-publiques) :
+> L'open data désigne l'effort que font les institutions qui partagent les données dont elles disposent. Ce partage doit être **gratuit, dans des formats ouverts, et permettre la réutilisation des données.**
+
+La loi française considère que les données produites ou détenues par les administrations, dans le cadre de leurs missions de service public, doivent être mises à disposition du public. Cela ne concerne ni les informations personnelles, ni celles touchant à la sécurité nationale
+
+---
+## Open data : quelques jalons historiques
+![](img/chrono.png)
+
+---
+
+## 07 Décembre 2007 : la rencontre de Sebastopol 
+
+.pull-left[
+👥 **Quoi ?** Une rencontre de l'Open Governement Group à Sebastopol (Californie), siège des éditions O'Reilly
+
+🎯 **Pourquoi ?** : Influencer le futur président des Etats Unis pour faire avancer l'open data
+
+📜 **Comment ?** En adoptant une déclaration définissant les grands principes de l'Open Government Data 
+
+
+]
+.pull-right[
+![](img/photofamille.jpg)
+]
+
+---
+class:middle, center
+![](img/session.jpg)
+# Revue des principes
+
+---
+class: middle, center
+
+# 1. Des données complètes
+### Toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité
+---
+class: middle, center
+
+![](img/opendata.jpg)
+# PAR DEFAUT
+
+#### L'open data par défaut, signifie que, sauf exception (données personnelles, intérêt national), toutes les données peuvent être ouvertes. A minima toutes les données déjà existantes au format numérique
+
+---
+class: middle, center
+
+# 2. Des données primaires
+###  Les données ouvertes sont telles que collectées à la source, non-agrégées avec le plus haut niveau de granularité
+
+---
+class: middle, center
+
+# 3. Des données fraiches (*timely*)
+### Les données doivent être disponibles dès qu'elles sont produites
+
+---
+class: middle, center
+
+# 4. Des données accessibles 
+### Les données doivent être utilisables par le plus grand nombre d’usagers potentiels
+
+---
+class: middle, center
+
+# 5. Des données exploitables par les machines 
+###  Les données peuvent être traitées automatiquement par les machines
+
+---
+class: middle, center
+
+# 6.Des données non discriminatoires 
+### Elles peuvent être utilisées par tous sans réclamer un enregistrement préalable
+---
+class: middle, center
+
+# 7. Des données dans un format ouvert
+### Ce format ne doit pas être la propriété d'une organisation en particulier (.xls) et doit être gouvernée par ses usagers
+
+---
+class: middle, center
+
+# 8. Des données dans une licence ouverte
+### Idéalement dans le domaine public sinon dans une licence conforme à l'[Open Definition](www.opendefinition.org) : Licence Ouverte (CC-BY) ou ODBL (CC-BY-SA)
+
+---
+## Open data : pour aller plus loin
+
+Retrouvez [les 8 principes de l'ouverture des données publiques ](https://public.resource.org/8_principles.html) qui ont été adoptés au cours du week-end du 7-8 décembre 2007 à Sébastopol, puis soumis à commentaires
+
+.center[![](img/sunlightfoundation.png)]
+
+Cette liste a ensuite été mise à jour et complétée en 2010 ([10 principes](https://sunlightfoundation.com/policy/documents/ten-open-data-principles/)) par la Sunlight Foundation.
+En 2013, cette dernière a rédigé des instructions et recommandations pour appliquer l'open data (["Open Data guidelines"](http://sunlightf.wpengine.com/wp-content/uploads/2016/09/OpenDataGuidelines_v3.pdf)) sur la base des 10 principes (**lecture obligatoire**)
+
+---
+## Open data : pour aller plus loin
+
+Ecoutez les explications de Larry Lessig sur les raisons de cette conférence :
+
+.center[[<img src="./img/lessig.png" height="370"/>](https://youtu.be/AmlzW980i5A)]
+
+---
+class:inverse, middle, center
+# L'open data dans la pratique
+
+---
+
+## Défi 1 : la découvrabilité des données
+
+> La découvrabilité des données est un défi majeur. Nous avons des portails de données et des registres, mais les agences gouvernementales appartenant à un gouvernement national publient toujours des données de différentes manières et à différents endroits. (…) 
+**La découverte des données est une condition préalable pour que les données ouvertes atteignent leur potentiel et la plupart des données sont actuellement difficiles à trouver.**
+
+.center[<img src="./img/datagapsclean.jpg" height="200"/>] 
+
+
+.footnote[https://index.okfn.org/insights/]
+
+---
+
+## Défi 1 : la découvrabilité des données
+
+Pour faciliter la découvrabilité des données, **il est indispensable de renseigner correctement les métadonnées**, i.e les données descriptives des données ouvertes. Notamment : 
++ Nom du producteur de données
++ Date de publication
++ Fréquence d'actualisation
++ Dernière date de mise à jour
++ Description des données
++ Détails des variables
++ Thématique / tags
++ Couverture (années, zone géographique concernée)
+
+(*liste non exhaustive*)
+
+---
+
+## Défi 1 : la découvrabilité des données
+
+L'équipe Datactivist a réalisé au cours de l'été 2017 un recensement des données ouvertures par 15 grandes villes françaises (Paris, Lyon, Lille, Rennes...). Plus de 400 jeux de données ouvertes ont été recensés, mais les identifier n'a pas toujours été simple...
+
+.center[<img src="./img/recensement3.png" height="240"/>] 
+
+
+.footnote[Lire l'article Medium [Qui a ouvert quoi ? le recensement des données des villes est maintenant ouvert](https://medium.com/datactivist/qui-a-ouvert-quoi-le-recensement-des-donn%C3%A9es-des-villes-est-maintenant-ouvert-b7f697135c1f) (**lecture obligatoire**)] 
+
+---
+
+## Défi 1 : la découvrabilité des données
+
+Ainsi,
+> **La moitié des descriptions des jeux de données fait moins de 180 caractères** et
+4% des jeux de données ont une description supérieure à 1000 caractères soit moins d’une demi-page
+
+Au-delà des descriptions souvent très lacunaires, un autre enjeu est d'**expliciter le nom des variables**. Celles-ci peuvent parfois contenir des acronymes, qui sont compréhensibles pour les agents publics qui les traitent au quotidien, mais peu lisibles pour le grand public. Il n'est pas rare de trouver des variables comme "**acces_pmr**" qui signifie "est-ce que le site est accessible aux personnes à mobilité réduite" et sans avoir le détail dans les métadonnées associées.
+
+Dans l'exemple ci-après, [l'enquête Etic du Ministère de l'éducation nationale](https://data.education.gouv.fr/explore/dataset/fr-en-etic_1d/table/), plusieurs colonnes ont des intitulés difficilement compréhensibles tels que "SiEquipementInf" ou "Maint_PersEducHEcole" mais celles-ci sont décrites dans les métadonnées du jeu de données
+
+---
+
+## Défi 1 : la découvrabilité des données
+
+.center[[<img src="./img/etic.png" height="400"/>](https://data.education.gouv.fr/explore/dataset/fr-en-etic_1d/table/)]
+
+---
+
+## Défi 1 : la découvrabilité des données
+
+.center[<img src="./img/metadonnees.png" height="400"/>]
+
+---
+
+## Défi 2 : le problème de la qualité
+
+>**Les données gouvernementales sont généralement incomplètes, obsolètes, de mauvaise qualité et fragmentées.** Dans la plupart des cas, les catalogues de données ouverts ou les portails sont alimentés manuellement à la suite d'approches informelles de gestion des données. **Les procédures, les délais et les responsabilités sont souvent peu clairs** parmi les institutions gouvernementales chargées de ce travail.
+
+.center[<img src="./img/odb.png" height="200"/>] 
+
+
+.footnote[http://opendatabarometer.org/4thedition/report/]
+
+---
+
+## Défi 2 : le problème de la qualité
+
+Des données parfois très très agrégées...
+
+.center[![](img/deception.gif)]
+
+---
+## Défi 2 : le problème de la qualité
+
+Ou très difficilement exploitables...
+
+.center[<img src="./img/recensement2.png" height="350"/>] 
+
+
+.footnote[[Source](https://medium.com/datactivist/qui-a-ouvert-quoi-le-recensement-des-donn%C3%A9es-des-villes-est-maintenant-ouvert-b7f697135c1f)]
+
+
+---
+## Défi 2 : le problème de la qualité
+
+Ou très difficilement exploitables...
+
+.center[<img src="./img/recensement1.png" height="350"/>] 
+
+
+.footnote[[Source](https://medium.com/datactivist/qui-a-ouvert-quoi-le-recensement-des-donn%C3%A9es-des-villes-est-maintenant-ouvert-b7f697135c1f)]
+
+---
+
+class:inverse, middle, center
+## Connaissez-vous des plateformes open data ?
+--
+
+## Quels jeux de données utilisez-vous ?
+
+---
+## Data.gouv.fr ?
+
+Data.gouv est la plateforme nationale ouverte des données publiques françaises.
+Elle a été conçue et inaugurée en 2011, par la mission Etalab, puis refondue en 2013.
+
+.center[<img src="./img/datagouvfr.png" height="250"/>] 
+
+On y trouve des milliers de jeux de données, provenant principalement de producteurs publics (Ministère de l'intérieur, Agence française de développement, Insee, Ville de Paris, Région Bretagne, CNIL...) mais aussi de producteurs tiers (OpenStreetMap, OpenFoodFacts...)
+
+---
+## Au-delà de data.gouv.fr
+
+Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la seule plateforme publique qui met à disposition des données ouvertes. Il existe :
+
++ Des plateformes open data gérées par les **collectivités territoriales**. Par exemple, [Paris Data](https://opendata.paris.fr/explore/?sort=modified), [la Région Occitanie](https://data.laregion.fr/pages/accueil/), [l'agglomération de Saint-Malo](https://data.stmalo-agglomeration.fr/page/accueil/)...
+
++ Des plateformes open data gérées par des **ministères**. Exemple : [data.education.gouv.fr](https://data.education.gouv.fr/pages/accueil/)
+
++ Des plateformes open data gérées par des **entreprises**. Exemple [DataNova](https://datanova.laposte.fr/page/accueil/) (La Poste)
+
++ Des jeux de données directement publiés sur le site des producteurs de données, sans plateforme dédiée. Exemple : Insee
+
+---
+## Exemple de données ouvertes: la base SIRENE
+
+.center[.reduite2[![](img/sirene.png)]]
+
+---
+##Exemple de données ouvertes : les accidents de la route
+.reduite[.center[![](img/accidents.png)]]
+
+---
+
+## Exemple de données ouvertes : les contrôles sanitaires
+
+.reduite2[.center[![](img/aliminfos.png)]]
+.footnote[[Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)]
+
+---
+
+## Exemple de données ouvertes : les contrôles sanitaires
+
+.reduite2[.center[![](img/resto.png)]]
+.footnote[[26 établissements au niveau d'hygiène à corriger de manière urgente ](https://dgal.opendatasoft.com/explore/embed/dataset/export_alimconfiance/map/?disjunctive.app_libelle_activite_etablissement&disjunctive.filtre&refine.synthese_eval_sanit=A%20corriger%20de%20mani%C3%A8re%20urgente&location=6,47.24195,5.00977&static=false&datasetcard=true)]
+
+---
+
+## Exemple de données ouvertes : autorisations de terrasses
+
+.reduite2[.center[![](img/terrasses.png)]]
+.footnote[[Etalages et terrasses](https://opendata.paris.fr/explore/dataset/etalages-et-terrasses/map/?disjunctive.libelle_type&disjunctive.red_profession&location=18,48.87183,2.30196&basemap=jawg.streets)]
+
+---
+
+class: inverse, center, middle
+
+# Pause déjeuner <3
 
 ---
 

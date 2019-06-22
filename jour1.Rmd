@@ -1,0 +1,169 @@
+---
+title: "Travailler avec les données à des fins journalistiques - Jour 1"
+subtitle: "Master journalisme - Université Cergy"
+author: "Datactivist, 2018-2019"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Master journalisme - Université Cergy, jour 1
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/unicergy/jour1.html
+
+Sources : https://github.com/datactivist/unicergy/
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.center[<img src="./img/ccbysa.png" height="100"/>] 
+---
+
+## Qui sommes-nous ?
+
+<BR><BR><BR><BR>
+
+[![](https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png)](https://datactivist.coop)
+
+### We .red[open data], we make them .red[useful]
+
+
+---
+## Qui sommes-nous ?
+
+- Datactivist est un .red[**pure player de l’open data**] créé en 2016, par Samuel Goëta et Joël Gombin.
+
+- Se positionnant sur .red[**toutes les étapes du travail d’ouverture des données**], Datactivist travaille tant avec les producteurs de données qu’avec les réutilisateurs et participe à l’appropriation des données par chacun.
+
+- Nous appliquons nos propres .red[**valeurs**] : nous sommes une coopérative ; nos supports de formation et nos contenus sont librement réutilisables, publiés en licence Creative Commons.
+
+- Une approche issue de la recherche : voir notamment **https://datactivist.coop/these**. 
+
+- Nous animons la communauté [#TeamOpenData](https://teamopendata.org).
+
+---
+## Nos activités
+
+- Conseil sur les .red[**stratégies d’ouverture de données**] : nous aidons les organisations dans la conception et la mise en œuvre de leur stratégie d’ouverture de données.
+
+
+- .red[**Accompagnement dans la réutilisation de données ouvertes**] : nous aidons les organisations à utiliser les données au quotidien. 
+
+- .red[**Sensibilisation et formation à la donnée**] : nous formons à la culture générale des données, nous enseignons les grands principes et bonnes pratiques de l'open data et nous introduisons à la data science. 
+
+- .red[**Médiation de données**] : nous organisons des hackathons, des open data camps, des expéditions de données...
+
+???
+
+La médiation de données est aussi fondamentalement une animation de communauté(s). 
+
+---
+## Qui suis-je ?
+
+.center[<img src="./img/phototim.jpg" height="300"/>]
+.center[[**Timothée Gidoin**](timothee.gidoin@sciencespo.fr)]
+.center[[*Twitter: TGidoin*](https://twitter.com/Tgidoin)]
+
+
+- Cofondateur de [**Datagora**](www.datagora.fr)
+- Consultant Open Data chez Datactivist
+- Enseignant vacataire à Sciences Po, Sciences Po SGL
+- Formateur Gouvernement ouvert
+
+---
+class: inverse, center, middle
+
+## Et vous, qui êtes-vous ?
+
+---
+## Que va-t-on faire durant ce séminaire ?
+
+--
+.center[<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" height="400"/>]
+
+---
+## Objectifs du séminaire
+
+- Allier théorie et pratique sur l'utilisation des données et acquérir des connaissances et des compétences **concrètes** que vous pourrez mobiliser dans vos expériences journalistiques
+
+- Vous présenter et faire expérimenter des outils gratuits d'analyse et de représentation graphique ou spatiale de données
+
+- Vous sensibiliser sur les biais des données, l'importance de distinguer les sources, les erreurs classiques à éviter lorsqu'on utilise des données
+
+- Vous faire découvrir des sources de données... et de sujets potentiellement infinis !
+
+- Vous donner des ressources pour celles et ceux qui voudraient aller plus loin dans la manipulation des données
+
+[**DISCLAIMER**] Je n'ai **pas** la science infuse et je ne suis **pas** un expert en journalisme => Participez et échangeons tout au cours de ce séminaire
+
+---
+## Détails des 3 jours :
+
+.red[**Jour 1 - lundi 24 juin :**]
+- Qu'est-ce qu'une donnée ? 
+- L'open data, l'allié du journaliste
+- Manipuler des données avec un tableur : du filtre au TCD
+
+.red[**Jour 2 - mardi 25 juin :**]
+- Les limites des données
+- Les erreurs classiques d'interprétation de données
+- Reconnaitre et distinguer les sources stats/études
+- Représentation graphique de données
+
+.red[**Jour 3 - mercredi 26 juin :**]
+- L'absence de données
+- Représenter des données spatialement
+- Récupérer des données autrement (scraping, CADA)
+- Pour aller plus loin
+
+---
+
+## Objectifs de la journée
+
+.red[**Matin**]
+- Comprendre ce qu'est une donnée et appréhender la variété des types de données existantes [10h15-11h25]
+
+*Pause 10 minutes ?*
+
+- L'open data, un ami qui vous veut du bien [11h35-13h]
+
+*Pause déjeuner 1 heure*
+
+.red[**Après-midi**]
+- Le data pipeline [14h-14h15]
+- Exercice pratique : manipuler des données sur tableur Lvl1 [14h15-15h25]
+
+*Pause 10 minutes ?*
+
+- Exercice pratique : manipuler des données sur tableur Lvl2 [15h35-17h]
+
+---
+May the data be with you !
+
+.center[<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" height="400"/>]
+
+
+---
+
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)

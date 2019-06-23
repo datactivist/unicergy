@@ -189,9 +189,8 @@ class:center,inverse, middle
 Class:
 ## La pyramide Data-Information-Knowledge-Wisdom
 
-.pull-left[
-[![largeur](./img/DIKW_Pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
-]
+
+.pull-left[[<img src="./img/dikw_pyramid.svg" height="350"/>](https://commons.wikimedia.org/w/index.php?curid=37705247)]
 
 .pull-right[Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff), 1989
 
@@ -242,6 +241,12 @@ _NB : le haut de la pyramide, est parfois remplacé par "compétence"_
 .center[<img src="./img/asterix1.png" height="350"/>] 
 
 .footnote[*Asterix chez les pictes*, © Albert René 2013]
+
+---
+## La statistique : outil de gouvernement et de preuve
+
+.center[<img src="./img/loups.png" height="420"/>] 
+
 ---
 ## La statistique : outil de gouvernement et de preuve
 .pull-left[.middle[La statistique est à la fois :
@@ -835,7 +840,120 @@ Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la se
 
 class: inverse, center, middle
 
-# Pause déjeuner <3
+# Pause déjeuner \o/
+
+---
+class: center, middle, inverse
+
+# Le data pipeline
+
+---
+
+## Le pipeline de données
+
+![largeur](./img/pipeline.png)
+
+---
+## Vérifier les données
+
+[![](img/sprint.png)](http://infolabs.io/sprint-qualite)
+
+---
+## Nettoyer les données
+
+Paradigme du [_tidy data_](http://vita.had.co.nz/papers/tidy-data.pdf) (Hadley Wickham)
+
+> “Les familles heureuses sont toutes pareilles; chaque famille malheureuse est malheureuse à sa manière.” – Leon Tolstoï 
+
+> “Les jeux de données ordonnés se ressemblent tous, mais chaque jeu de données désordonné est désordonné à sa manière
+.” – Hadley Wickham
+
+**Principes du *tidy data* ("données ordonnées")**
+- Chaque variable correspond à une colonne
+- Chaque observation/individu correspond à une ligne
+- Chaque type d'unité d'observation correspond à une table
+- Chaque cellule comporte une donnée 
+
+---
+# Visualiser les données
+### *Choisir un format de visualisation*
+
+.center[[<img src="./img/datavizcatalogue.png" height="400"/>](http://www.datavizcatalogue.com/)]
+
+---
+# Visualiser les données
+### *Trouver un outil*
+
+.center[[<img src="./img/opennews.png" height="400"/>](https://source.opennews.org/articles/what-i-learned-recreating-one-chart-using-24-tools/)]
+
+---
+class: inverse, center, middle
+
+# Fini de parler... à vous de jouer !
+
+---
+## Analyse de données via tableur : filtre et tri
+
+- Cherchez le jeu de données sur le nombre de redevables à l'ISF et le montant moyen associé, et téléchargez le
+
+- Quelle différence entre les onglets *définitif* et *définitif_patrimoine* ?
+
+- Triez l'onglet *définitif_patrimoine* pour qu'il redevienne identique à l'onglet *définitif*
+
+- Calculez l'ISF moyen payé par commune dans la colonne h
+
+- Quelles sont les communes payant le plus d'ISF en 2017 (en absolu) ?
+
+- Quelles sont les communes d'IDF payant le plus d'ISF en 2017 (en absolu) ?
+
+- Quels sont les départements parisiens payant le plus d'ISF en 2017 (en absolu) ?
+
+---
+## Analyse de données via tableur : fonctions
+
+- Quel est le montant moyen de l'ISF versé par commune ?
+
+- Quel est le montant total d'ISF versé par ces communes ?
+--
+
+Utilisez la fonction *sommeprod*
+
+- Partons du principe que le montant moyen persé par les redevables à l'ISF de Levallois Perret est un bon étalon, calculez le montant ISF total si tous les redevables français devaient payer le même montant. Quel serait le montant total ? Et Neuilly ?
+--
+
+Bloquez des cellules avec les $
+
+- Vous souhaitez visualiser en un coup d'oeil la différence de patrimoine entre les redevables à l'ISF, utilisez pour cela la mise en forme conditionnelle
+
+---
+## Analyse de données via tableur : fonctions
+
+.center[<img src="https://media.giphy.com/media/l0HlTyjbjbv9qabCM/source.gif" height="400"/>]
+
+---
+## Analyse de données via tableur : fonctions
+
+- Vous souhaitez récupérer le nombre de redevables à l'ISF en Ille et Vilaine mais sans utiliser de filtres ou de tri...
+--
+
+Fonction *somme.si*
+
+- Vous souhaitez récupérer le nombre de redevables à l'ISF à Paris mais seuelement dans les arrondissements pour lesquels l'ISF moyen est supérieur à 10 000€ (et sans utiliser de filtres ou de tri...) :)
+
+--
+
+Fonction *somme.si.ens*
+
+
+- On réitère - avec les mêmes contraintes - mais la subtilité c'est qu'on ne veut pas connaitre le montant mais le nombre de villes en Ille et Vilaine redevables à l'ISF
+
+--
+
+Fonction *nb.si*
+
+- Et combien il y a-t-il d'arrondissements parisiens qui ont des redevables avec un ISF moyen supérieur à 10 000€ ? 
+--
+Fonction *nb.si.ens*
 
 ---
 

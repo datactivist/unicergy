@@ -151,6 +151,644 @@ Vous devriez obtenir le tableau suivant :
 .center[<img src="./img/tcd.png" height="350" />]
 
 ---
+## Analyse de données via tableur : TCD
+
+Vous devriez obtenir le graphique suivant :
+
+.center[<img src="./img/gcd.png" height="350" />]
+
+---
+## Analyse de données via tableur : TCD
+
+Créez autant de graphiques que vous souhaitez !
+
+.center[<img src="./img/gcd2.png" height="350" />]
+---
+class: inverse, center, middle
+
+## L'écosystème des sources : bienvenue dans la jungle des acronymes
+
+---
+## Qui produit des données publiques ?
+
+- Les organismes officiels produisant des **statistiques publiques** sont loin d'être les seuls à produire des données publiques
+
+- **La plupart des administrations ou collectivités produisent des données** dont beaucoup d'entre elles peuvent être ouvertes et réutilisées par tous (cf section 6 et 8 autour de l'*Open data*) et faire l'objet de statistiques. Exemples:
+  - Ville de Paris, Région Bretagne, Ministère des armées, Assemblée Nationale, CAF, Pole Emploi, douanes...
+
+**.red[Point définition]** : les statistiques visent d'abord à fournir des renseignements utiles à l'aide de chiffres. La statistique pourrait donc être définie comme de **l'information qu'on peut obtenir à partir d'opérations mathématiques sur des données numériques**. Les statistiques peuvent servir de base à la **prise de décisions**
+
+---
+## Qui produit des données publiques ?
+
+- Il existe des données sur **l'ensemble des sujets de l'action publique**, ces dernières étant consubstantielles à la prise de décisions et à la mise en oeuvre de politiques publiques
+
+- **Ceux qui les produisent** (exemple: une plainte enregistrée par les services de police et de gendarmerie) **ne sont pas toujours ceux qui les exploitent**
+
+- Nous allons nous intéresser dans les prochaines parties à **l'écosystème de ceux qui étudient, analysent et retraitent ces données publiques**, sous la forme de statistiques, d'études, de rapports ou autres publications visant à informer ou influencer le débat public
+
+.footnote[Du grain à moudre : Regardez [la vidéo #DATAGUEULE "Gouvernés par les nombres ? Échecs et maths"](https://www.youtube.com/watch?v=3Xct2cLcsWY)]
+
+---
+## La jungle des acronymes
+
+.center[<img src="http://www.phdcomics.com/comics/archive/phd111908s.gif" height="430"/>]
+
+.footnote[© Jorge Cham, 2008]
+
+---
+## La jungle des acronymes
+
+Beaucoup des producteurs de statistiques ou d'études publiques ont des noms "*jargoneux*" ou des acronymes peu connus du grand public. Par exemple, connaissez-vous les organismes suivants :
+
+.center[<img src="./img/sources1.png" height="350"/>]
+
+---
+## Distinguer les sources
+
+**Il n'existe pas de .red[classification officielle de ces sources.]** Il est cependant possible d'esquisser une certaine typologie des acteurs :
+
+- **Service statistique public (SSP)** : l'Insee et les services statistiques ministériels. Les membres du SSP ont la particularité de produire des études en toute indépendance de leur ministère de rattachement
+  - Ex: Insee, Dares, Drees, Depp...
+
+- **Organismes publics** : 
+Certains sont rattachés à des ministères ou au premier ministre (ex: CGET, France Stratégie, Direction Générale du Trésor...)
+  
+D'autres en sont indépendants (Ex: Défenseur des droits, Ofpra...), c'est le cas des AAI (CNIL, CADA, HATVP...)
+
+- **Les thinks tanks** : Ce sont des groupes de réflexion privés qui produisent des études sur des thèmes de société
+  - Ex: Fondation Jean Jaurès, Terra Nova, Institut Delors...
+  
+---
+## Distinguer les sources
+  
+- **Les organisations internationales**
+  - Ex: OCDE, FMI, Banque Mondiale, HCR...
+  
+- **Les centres de recherche**
+
+- **Les instituts de sondage ou d'études**
+  - Ex: Ifop, Ipsos, Kantar, BVA...
+  
+Et d'autres acteurs (**ONG**, **cabinets de conseil**, **lobbys**) qui produisent régulièrement des publications pour alimenter ou peser sur le débat public
+
+NB : cette [nomenclature proposée par Datagora](https://datagora.fr/instituts), connait de nombreuses limites, certains acteurs se considérant comme l'un et l'autre ou redéfinissant leur identité et missions. Par exemple l'OFCE, observatoire affilié à Sciences Po, produit des études de conjoncture économique. Il se définissait précédemment comme un think tank et désormais comme un centre de recherche
+
+---
+## Distinguer les sources
+
+Au-delà de cette typologie approximative, il y a des **critères objectifs** sur lesquels il peut être intéressant de s'attarder quand on cherche à décrypter une source :
+
+- Est-elle **.red[indépendante du politique]** dans la publication de ses résultats ?
+
+- Est-elle **.red[financée par des fonds privés ou publics]** ?
+
+- Quelle type de **.red[gouvernance]** ? 
+  - *Exemple de Rexecode et de l'Ires* : ce sont deux organismes produisant des analyses de conjoncture économique. Cependant, l'un (Rexecode) a dans son [conseil d'administration](http://www.rexecode.fr/public/Qui-sommes-nous/Gouvernance) plusieurs personnalités issues d'organisations patronales comme le Medef ou l'UIMM. L'autre (Ires) a dans son [Assemblée générale](http://www.ires.fr/index.php/institut/l-organisation) de nombreux syndicalistes
+
+- A-t-elle une **.red[orientation idéologique ou défend-elle des intérêts]** ?
+
+- Est-elle constituée de **.red[véritables chercheurs]** ?
+
+---
+## Distinguer les sources
+
+#### Distinguer les sources "primaires" des sources "secondaires"
+
+- Il est fréquent de voir dans les media des chiffres qui sont attribués à des sources qui calculent, analysent, comparent, croisent des données. Ces sources "secondaires" (ex: Cour des comptes) peuvent produire de nouveaux résultats ou des analyses pertinentes mais il faut bien garder à l'esprit qu'elles ne sont pas à l'origine des données.
+  - Exemple : [Etude "Les dynamiques de population"](http://www.observatoire-des-territoires.gouv.fr/observatoire-des-territoires/sites/default/files/Fiche-OT-Les%20dynamiques%20de%20population_0.pdf) du CGET dont la plupart des données analysées proviennent de l'Insee ou d'Eurostat
+  
+- Lorsque vous cherchez des données *"brutes"*, il est préférable d'aller directement sur les sites des sources primaires. Exemples :
+  - Site de la CAF pour les [données sur les allocataires des APL](http://data.caf.fr/category/statistiques-allocataires-prestations-et-services) ; 
+  - Site de Pole Emploi pour les [données sur les demandeurs d'emploi](http://www.pole-emploi.org/opendata/les-demandeurs-demploi-indemnise.html?type=article)
+
+---
+## Distinguer les sources
+
+.pull-left[<img src="./img/source.png" height="300"/>]
+.pull-right[<img src="./img/comptage.png" height="300"/>]
+
+.footnote[© Xavier Gorce 2018]
+
+---
+class: inverse, center, middle
+
+## L’importance de croiser les sources de données
+
+---
+## Croiser les sources
+
+Même provenant de sources sérieuses et primaires, il n'est pas inutile de croiser les données trouvées avec d'autres sources qui peuvent également avoir des données sur les mêmes sujets mais avec des chiffres... différents.
+*Comment expliquer ces écarts ?*
+
+- Les **.red[différences de méthodologie]**
+  - Exemple 1 : chiffres du chômage de Pole Emploi vs ceux de l'Insee
+  - Exemple 2 : Taux de pauvreté, OCDE vs Eurostat
+  
+- L'incertitude liée aux **.red[estimations]**
+  - Certaines données sont issues d'estimations. Elles sont donc souvent temporaires et en attente de révision ou de confirmation
+
+- **.red[L'interprétation des données]**
+  - Souvent les données sont accompagnées de contexte et d'analyse
+  - Ces éléments peuvent différer d'une source à une autre
+
+---
+## Les différences de méthodologie
+
+Certains producteurs de données ou d'études n'utilisent pas les mêmes conventions statistiques ou méthodologies pour calculer un même indicateur.
+
+Un exemple connu est celui du **.red[taux de chômage]** : même si les tendances sont souvent proches, les chiffres peuvent connaître d'importants écarts entre ceux de l'Insee et de Pole Emploi, pour 2 raisons principalement :
+
+**1) La définition du chômeur** est différente entre celle de l'Insee (qui reprend la définition du BIT) et celle de Pole Emploi (qui comptabilise les personnes inscrites sur ses listes)
+
+Un chômeur, au sens du BIT, n’est donc pas forcément inscrit à Pôle emploi, et l’inverse est aussi vrai.
+
+2) **Les techniques de calcul** différent également (technique du sondage pour l'Insee vs nombre des demandeurs d'inscrits dans les Pole Emploi)
+
+---
+## Les différences de méthodologie
+
+.center[<img src="./img/emploi.png" height="430"/>]
+
+.footnote[[source](https://www.lemonde.fr/les-decodeurs/article/2017/08/24/chomage-pourquoi-les-chiffres-de-l-insee-et-de-pole-emploi-different_5176176_4355770.html)]
+
+---
+## Les différences de méthodologie
+
+Nombre de travailleurs pauvres, Allemagne vs France... Qui a raison ?
+
+.pull-left[<img src="./img/pauvrete1.png" height="400"/>]
+
+.pull-right[<img src="./img/pauvrete2.png" height="400"/>]
+
+---
+## Les différences de méthodologie
+
+Nombre de travailleurs pauvres, Allemagne vs France... Qui a raison ?
+
+Les deux, car ces données ne mesurent pas exactement la même chose ! Cela est dû à des **nuances de paramètres statistiques** :
+
+> Eurostat regarde la part des travailleurs pauvres pris **individuellement** par rapport à l’ensemble des personnes en activité, tandis que l’OCDE mesure le pourcentage des personnes **membres d’un ménage** vivant sous le seuil de pauvreté, et où au moins l’un des adultes travaille. Ici, la composition du foyer entre donc en compte, avec le nombre des adultes en emploi, et une pondération selon le nombre d’enfants. Et cela explique les écarts
+
+.footnote[[source](https://www.lemonde.fr/economie/article/2018/05/12/selon-l-ocde-la-part-des-travailleurs-pauvres-est-deux-fois-plus-elevee-en-france-qu-en-allemagne_5297878_3234.html)]
+
+---
+## Les différences de méthodologie
+
+> Tous ces chiffres montrent que la part des travailleurs pauvres est plus élevée en Allemagne qu’en France, lorsqu’ils sont comptabilisés individuellement, mais elle est plus basse si l’on prend en compte la composition du foyer
+
+Stefano Scarpetta, directeur de la division emploi à l’OCDE
+
+Plus largement, on peut aussi parfois se poser la question des seuils retenus pour le calcul de certains indicateurs. Par exemple, est-on pauvre avec moins de 60, 50 ou 40% du revenu médian ?
+
+Lire à ce sujet l'article du blog d'alternatives économiques ["Quel est le « bon » seuil de pauvreté ?"](https://blogs.alternatives-economiques.fr/idies/2018/03/01/quel-est-le-bon-seuil-de-pauvrete) de l'économiste Jean Gadrey en réaction à l'article ["9 millions de pauvres, un chiffre exagéré"](https://blogs.alternatives-economiques.fr/idies/2018/02/27/neuf-millions-depauvres-un-chiffre-exagere) de Louis Maurin, directeur de l'Observatoire des inégalités
+
+---
+## L'incertitude liée aux estimations
+
+De nombreux indicateurs économiques font l'objet d'estimations de plusieurs acteurs. Les estimations peuvent varier de manière significative. Exemple ici avec les estimations - *au 31/07/18* - de croissance du PIB Français pour 2018 :
+
+.center[<img src="./img/croissancepib.png" height="290"/>]
+
+.footnote[*NB: en décembre 2018, l'Insee a abaissé ses prévisions de croissance pour 2018 à 1,5%*]
+
+---
+## L'interprétation des données
+
+Souvent les données sont accompagnées de **contexte et d'analyse**, qui donnent lieu à une certaine .red[**interprétation**]. Ces éléments peuvent différer d'une source à une autre, il est donc utile de les croiser régulièrement. 
+
+.pull-left[<img src="./img/interpretation.png" height="350"/>]
+
+.pull-right[Ici un exemple classique des divergences d'interprétation des données mensuelles du chômage (Sept 2017). Essayez de remonter directement aux producteurs de données "primaires", ici Pole Emploi, si vous souhaitez approfondir votre analyse en évitant le *"bruit éditorial"*]
+
+
+---
+
+class: inverse, center, middle
+
+# Pause déjeuner \o/
+
+---
+
+## En guise de rappel... :)
+
+Rappel sections 1 et 2 : les données sont rarement "neutres"...
+
+.center[<img src="./img/pollution.png" height="400"/>]
+
+.footnote[© Xavier Gorce]
+
+---
+class: inverse, center, middle
+
+## Les pièges statistiques récurrents
+
+---
+## Médiane ou Moyenne ?
+
+D'après-vous, l'écart est-il significatif entre le salaire moyen et médian ?
+
+--
+- Salaire mensuel **.red[moyen]** net en France en 2014 (secteur privé) : **2 225€**
+- Salaire mensuel **.red[median]** net en France en 2014 (secteur privé) : **1 783€**
+Soit une différence de près de **450€** !
+
+.center[[<img src="./img/salaireinsee.png" height="340"/>](https://www.insee.fr/fr/statistiques/2121609#consulter)]
+
+---
+## Médiane ou Moyenne ?
+
+Rappelez-vous que **la moyenne est très sensible aux .red[valeurs extrêmes]...**
+
+.center[[<img src="./img/milliardaire.png" height="400"/>](https://www.insee.fr/fr/statistiques/2121609#consulter)]
+
+---
+## Corrélation ou causalité ?
+
+Rappel : une corrélation fortement positive, avec un coefficient de corrélation (r) > 0,5, signifie seulement que deux variables évoluent dans le même sens. Cela ne dit **rien** sur le possible lien entre elles
+- Faites attention aux **corrélations fallacieuses** !
+- Exemple ici avec la corrélation quasi parfaite entre la consommation de fromage par personne et le nombre de personnes qui décèdent étranglées dans leurs draps
+
+.center[[<img src="./img/spurious.png" height="250"/>](http://tylervigen.com/spurious-correlations)]
+
+---
+## Corrélation ou causalité ?
+
+A l'instar du site parodique ["Spurious Correlations"](http://tylervigen.com/spurious-correlations) dont le graphique précédent est issu, les Décodeurs du monde ont récemment lancé un [générateur aléatoire de comparaisons](https://www.lemonde.fr/les-decodeurs/article/2019/01/02/correlation-ou-causalite-brillez-en-societe-avec-notre-generateur-aleatoire-de-comparaisons-absurdes_5404286_4355770.html). Un bon moyen pour ne plus jamais faire la confusion entre corrélation ou causalité !
+
+.center[<img src="./img/decodeurs.png" height="350"/>]
+
+---
+## Corrélation ou causalité ?
+
+- En ce qui concerne les corrélations, il faut être attentif au **.red[nombre d'unités observées]** : moins il y a d'observations, plus la corrélation est facilement élevée. Ce n'est pas pareil de regarder la corrélation entre 2 variables sur 13 régions ou sur 35 000 villes
+
+.center[<img src="./img/correlation.png" height="180"/>]
+
+- Il faut également être prudent sur l'échelle spatiale utilisée : la corrélation entre le % d'immigrants et le vote FN est positif à l'échelle du département. Mais à l'intérieur de ces départements, **ce sont dans les zones avec la plus faible proportion d'immigrants que les personnes votent FN**. Ainsi, au niveau micro la corrélation peut être inversée que ce qui était observé au niveau macro
+
+---
+## Corrélation ou causalité ?
+
+.center[<img src="./img/lebras.png" height="350"/>]
+
+.footnotes[Credits Hervé Le Bras]
+
+---
+## Corrélation ou causalité ?
+
+- Les zones combinant le plus de difficultés sont corrélées avec celles ayant une part des suffrages élevée pour Marine Le Pen à la présidentielle de 2012
+
+- Est-ce que cela signifie que les personnes qui ont le plus de difficultés votent FN ?
+  - Pas forcément, pourquoi ?
+  
+> Il serait cependant inexact d’en déduire que ce vote est celui des pauvres et des laissés pour compte. Ces derniers s’abstiennent le plus souvent. On doit plutôt constater que c’est le vote des régions pauvres, celles où beaucoup craignent les accidents de la vie car ils voient leurs proches atteints par eux.
+
+Hervé Le Bras, dans son article pour The Conversation ["La France inégale : Qui vote FN ? Pas forcément ceux à qui l’on pense"](https://theconversation.com/la-france-inegale-qui-vote-fn-pas-forcement-ceux-a-qui-lon-pense-75977) (**obligatoire**)
+
+---
+## Corrélation ou causalité ?
+
+<BR><BR><BR>
+.center[<img src="./img/causalite.png" height="200"/>]
+
+.footnotes[Credits XKCD]
+
+---
+## Les facteurs cachés
+
+Il existe des facteurs qu'on ne voit pas ou auxquels on ne pense généralement pas mais qui peuvent fortement influer sur des résultats.
+- Exemple ici avec la forte baisse du nombre de décès sur les routes en France entre 2003 et 2014
+
+.center[<img src="./img/routes.png" height="100"/>]
+
+- Est-ce que les politiques actives de lutte contre l'insécurité routière mises en place dans les années 2000 sont la seule explication de cette baisse ? D'autres facteurs "cachés" peuvent aussi avoir eu un rôle significatif
+
+---
+## Les facteurs cachés
+
+Quelques exemples :
+
+- Le **taux d'occupation des voitures** a fortement baissé (donc mécaniquement moins de morts  à accidents comparables)
+  
+- Les **conducteurs "novices"**, i.e avec moins de 12 années de pratique, sont de moins en moins nombreux
+
+- Les personnes blessées dans des accidents de la route sont **mieux pris en charge par les services d'urgence** que par le passé
+
+- La **qualité des voitures** s'est fortement améliorée, et notamment l'aspect sécurité (airbags)
+
+---
+## Le périmètre du dénominateur
+
+Lorsqu'il est question de **.red[ratio]**, il est utile de se demander ce que comprend le dénominateur de ce ratio. Le périmètre du dénominateur influence évidemment le résultat obtenu. 
+
+- Exemple avec le taux de chômage des jeunes en France : à la fin 2017, le taux de chômage des 15-24 ans atteignait 23%
+
+- Est-ce que cela signifie que près d'un jeune sur 4 est au chômage ?
+
+.center[<img src="./img/chomage1.png" height="150"/>]
+
+.footnote[[Source](https://www.huffingtonpost.fr/2012/09/06/taux-chomage-bit-jeunes-dom_n_1860232.html)]
+
+---
+## Le périmètre du dénominateur
+
+- Est-ce que cela signifie que près d'un jeune sur 4 est au chômage ?
+
+- Non ! Le dénominateur prend en compte les **"personnes actives"**, c'est-à-dire ayant un emploi ou à la recherche d'un emploi
+
+- Mais **seulement 37% des 15-24 ans sont actifs** ! Beaucoup des autres sont encore en études secondaires ou tertiaires 
+
+- Et ceux qui sont déjà sur le marché du travail sont souvent ceux qui ont quitté tôt le système scolaire et donc **plus susceptible d'éprouver des difficultés pour trouver un travail**
+
+- Si on rapporte le nombre de 15-24 ans à la recherche d'un emploi sur l'ensemble des 15-24 ans (y compris ceux en études), le taux de chômage tombe à 8,5%, soit près d'un jeune sur 12
+
+.footnote[Regarder la vidéo ["Un jeune sur quatre au chômage ?"](https://education.francetv.fr/matiere/economie/premiere/video/un-jeune-sur-quatre-au-chomage)]
+
+---
+class: inverse, center, middle
+
+## Les représentations graphiques et spatiales problématiques
+
+---
+## Les représentations graphiques problématiques
+
+- Avoir une **.red[échelle discontinue sur les histogrammes]** : il est fréquent de trouver des histogrammes dont l'axe des ordonnées ne démarre pas à 0. Cela a pour conséquence de "tronquer" une partie du graphique et de donner une **présentation biaisée des données**.
+Cela est souvent réalisé consciemment pour faire passer un message
+  - Exemple avec [le communiqué de presse de la SNCF](https://www.sncf.com/sncv1/ressources/cp_taux_de_participation_4_avril_2018.pdf) durant la grève des cheminots (avril 2018) sur le taux de grévistes :
+  
+.center[<img src="./img/greve.png" height="220"/>]
+
+---
+## Les représentations graphiques problématiques
+
+Voici ce que donne le même graphique mais avec l'axe des ordonnées démarrant à 0 :
+
+.pull-left[<img src="./img/greve2.png" height="350"/>]
+
+.pull-right[*Pas le même rendu, n'est-ce pas ? ;)*]
+
+  <BR><BR><BR><BR><BR>
+
+.pull-right[*NB: de nombreux exemples cités dans cette partie proviennent de [cet article des Décodeurs*](https://abonnes.lemonde.fr/les-decodeurs/article/2018/05/22/sept-conseils-pour-ne-pas-se-faire-avoir-par-les-representations-graphiques_5302680_4355770.html) du Monde]
+
+---
+## Les représentations graphiques problématiques
+
+- Avoir une **.red[échelle discontinue sur les graphiques en courbe]** : même problème que pour les histogrammes. Un autre exemple parlant avec un tract du FN (à gauche) et le même graphique, réalisé par Les Décodeurs, avec l'axe des ordonnées partant de 0 (à droite) :
+
+.center[<img src="./img/tractFN.png" height="300"/>]
+
+---
+## Les représentations graphiques problématiques
+
+- Les **.red[graphiques en camembert]** (pie chart) sont à éviter lorsqu'on souhaite représenter des **proportions** :
+
+.center[[<img src="./img/camembert.png" height="350"/>](https://twitter.com/maxcroser/status/857389434756505600)]
+
+---
+## Les représentations graphiques problématiques
+
+- Les **.red[graphiques avec une "Base 100"]** : en fonction de l'année sélectionnée pour être la base 100, les évolutions peuvent fortement changer
+
+.center[[<img src="./img/mlp1.png" height="320"/>](https://www.lemonde.fr/les-decodeurs/article/2017/03/21/les-manipulations-graphiques-de-marine-le-pen-sur-l-euro_5098439_4355770.html)]
+
+##### .center[*Marine Le Pen montre un graphique pendant le 1er débat TV de la présidentielle 2017*]
+
+---
+## Les représentations graphiques problématiques
+
+- Les **.red[graphiques avec une "Base 100"]** : en fonction de l'année sélectionnée pour être la base 100, les évolutions peuvent fortement changer
+  - A gauche, Production industrielle en Europe, base 100 = **2010**
+  - A droite, Production industrielle en Europe, base 100 = **1974**
+
+.pull-left[<img src="./img/indus1.png" height="300"/>]
+
+.pull-right[<img src="./img/indus2.png" height="300"/>]
+
+---
+## Les représentations graphiques problématiques
+
+Et si on ne prend pas en compte que l'évolution de la production industrielle, mais celle de l'ensemble du PIB, le graphique évolue significativement
+
+.center[[<img src="./img/indus3.png" height="350"/>](https://twitter.com/henrikenderlein/status/844174756089942016)]
+
+---
+## Les représentations spatiales
+
+En fonction de l'**unité spatiale** retenue pour représenter graphiquement les données, les résultats peuvent différer fortement d'une carte à une autre...
+- Exemple avec la représentation des résultats du 1er tour de l'élection présidentielle française de 2017. A gauche les résultats par commune, à droite une carte à anamorphose où la superficie des communes est proportionnelle au nombre de leurs habitants
+
+
+.center[[<img src="./img/presidentielle.png" height="290"/>](https://www.populationdata.net/cartes/france-elections-presidentielles-2017-1er-tour/)]
+
+---
+## Les représentations spatiales
+
+- A gauche les résultats par département, à droite les résultats par région
+
+.pull-left[<img src="./img/presidentielle2.png" height="350"/>]
+
+.pull-right[<img src="./img/presidentielle3.png" height="350"/>]
+
+.footnote[[source](https://abonnes.lemonde.fr/les-decodeurs/article/2017/04/24/premier-tour-de-la-presidentielle-les-resultats-par-region_5116526_4355770.html)]
+
+---
+## Les représentations spatiales
+
+Lorsqu'elles sont representées sur des cartes, les données doivent souvent être représentées **relativement à la population**, et non pas en valeur absolue
+- Exemple ici avec, à gauche, le nombre de décès liés à l'alcoolisme en France en 2013. Et à droite, les mêmes données représentées relativement à la population de chaque région
+
+.pull-left[<img src="./img/alcoolisme2.png" height="270"/>]
+
+.pull-right[<img src="./img/alcoolisme1.png" height="270"/>]
+
+.footnote[[source](https://www.scoresante.org/sindicateurs.html)]
+
+---
+## Les représentations spatiales
+
+Soyez attentifs aux couleurs choisies automatiquement par l'outil de visualisation utilisé. Par défaut, **ils adaptent les échelles et les couleurs associées aux nouvelles données,** ce qui peut brouiller les évolutions d'une année à une autre. Ici le taux de décès liés à l'alcoolisme en Bretagne a été divisé par 3 entre 1980 et 2013
+
+.pull-left[<img src="./img/scor1.png" height="290"/>]
+
+.pull-right[<img src="./img/scor2.png" height="290"/>]
+
+.footnote[[source](https://www.scoresante.org/sindicateurs.html)]
+
+---
+class: inverse, center, middle
+
+## 3. Les limites inhérentes aux indicateurs
+
+---
+## Les indicateurs sont-ils neutres ?
+
+- Les indicateurs statistiques sont toujours le fruit de conventions humaines. **Il n'y a pas d'indicateurs .red["purs" ou neutres]**
+
+- Un exemple classique est le PIB. Son calcul provient d'une **convention statistique** pour estimer la valeur économique créée par un pays. Quelles limites ?
+  - L'impact sur l'environnement ou les inégalités n'est pas pris en compte
+  
+  - **La façon dont il est calculé peut changer dans le temps**. Par exemple les revenus tirés de l'activité clandestine de drogues ou de prostitution sont pris en compte dans le calcul du PIB italien depuis 2014, ce qui, mécaniquement, l'a tiré vers le haut
+  
+  - L'insee vient d'accepter d'intégrer le trafic de stupéfiants dans le calcul du PIB français
+  
+---
+## Les indicateurs ne sont pas neutres
+
+.center[<img src="./img/drogue.png" height="380"/>]
+
+.footnote[[Source](http://www.lefigaro.fr/conjoncture/2018/01/30/20002-20180130ARTFIG00342-le-trafic-de-drogue-va-bientot-entrer-dans-le-calcul-du-pib-francais.php)]
+
+---
+## Les indicateurs ne sont pas neutres
+
+Exemple avec les **statistiques sur la criminalité**. En France, il y a une base de données dénommée "Etat 4001" qui agrège les faits connus par la police et la gendarmerie, soit parce qu'il y a eu un dépot de plainte, soit parce que le fait a été décelé grâce à l'action des forces de l'ordre. 
+
+*Peut-on déduire l'évolution de la criminalité à partir de cette base de données ?*
+
+**Non** ! Plusieurs raisons pour cela :
+
+- Ce n'est pas une base de données "à jour" : **les faits sont datés en fonction du moment où ils ont été enregistrés dans Etat 4001 et non quand ils ont été commis**. Si quelqu'un dépose une plainte en 2019 pour un fait commis en 2018, le fait sera daté 2019, ce qui brouille évidemment les comparaisons annuelles..
+
+.footnote[Lire l'article du Monde ["Pourquoi les chiffres sur la délinquance sont à prendre avec précaution"](https://www.lemonde.fr/les-decodeurs/article/2018/08/27/pourquoi-les-chiffres-sur-la-delinquance-sont-a-manipuler-avec-precaution_5346721_4355770.html) (**obligatoire**)]
+
+---
+## Les indicateurs ne sont pas neutres
+
+- Par ailleurs, qu'en est-il de tous les crimes ou délits commis qui n'aboutissent pas à un dépôt de plainte ? 
+- Selon une [étude d'Interstats](https://www.interieur.gouv.fr/content/download/104138/823089/file/IA17.pdf), le service statistique du ministère de l'intérieur, **seulement une victime sur 12 effectue un signalement auprès des forces de sécurité.**
+
+.center[<img src="./img/plainte.png" height="200"/>]
+
+- En conclusion, l'Etat 4001 reflète davantage les évolutions de l'activité des forces de l'ordre que de la criminalité à proprement parler
+
+---
+## La loi de Goodhart
+
+La **.red[loi de Goodhart]** est un concept qui met en lumière la difficulté de concevoir et mesurer des indicateurs fiables qui sont associés à des enjeux politiques, financiers ou sociaux. Ainsi, **lorsqu'une mesure devient un objectif, elle cesse d'être une bonne mesure**
+
+> Tout indicateur statistique cesse d’être un indicateur statistique fiable dès lors qu’il fait l’objet d’enjeux car il devient sujet à des manipulations
+
+Charles Goodhart, économiste
+
+**Connaissez-vous des exemples d'indicateurs où la loi de Goodhart peut être observée ?**
+
+---
+## La loi de Goodhart
+
+La **.red[loi de Goodhart]** est un concept qui met en lumière la difficulté de concevoir et mesurer des indicateurs fiables qui sont associés à des enjeux politiques, financiers ou sociaux. Ainsi, **lorsqu'une mesure devient un objectif, elle cesse d'être une bonne mesure**
+
+> Tout indicateur statistique cesse d’être un indicateur statistique fiable dès lors qu’il fait l’objet d’enjeux car il devient sujet à des manipulations
+
+Charles Goodhart, économiste
+
+**Connaissez-vous des exemples d'indicateurs où la loi de Goodhart peut être observée ?**
+
+Le taux de chômage ! On se concentre la plupart du temps sur **le nombre d'inscrits en catégorie A** (et ce sont ces chiffres qui font les gros titres de la presse généralement).
+Mais est-ce bien pertinent ?
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A**
+
+.center[<img src="./img/cat1.png" height="350"/>]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A/B/C**
+
+.center[<img src="./img/cat2.png" height="350"/>]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A/B/C, moins de 25 ans**
+
+.center[<img src="./img/cat3.png" height="350"/>]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A/B/C, 50 ans ou plus**
+
+.center[<img src="./img/cat4.png" height="350"/>]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- Qu'en est-il du **.red[taux d'activité]** ? Les chiffres du chômage ne prennent pas en compte les personnes qui sont démotivées et ne recherchant pas ou plus de travail
+
+- **Il peut y avoir des situations où le taux de chômage baisse et le taux d'activité également**. Cela signifie qu'il y a moins de demandeurs d'emplois "officiels" mais de plus en plus de personnes en âge de travailler qui sont inactives 
+
+- C'est la situation que connaît les Etats-Unis : Entre 2009 et 2017, le taux de chômage est passé de 9,2% à 4,4% mais parallèlement le taux d'activité est passée de 70% à 67,5%
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+.center[<img src="./img/chomus1.png" height="380"/>]
+
+.footnote[Taux de chômage US entre 2009 et 2017]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+.center[<img src="./img/chomus2.png" height="380"/>]
+
+.footnote[Taux d'activité US entre 2009 et 2017]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- Au-delà du chômage, qu'en est-il du **.red[halo autour du chômage]** ? Comprend le travail occasionnel, le sous-emploi ou les personnes inactives
+
+.center[<img src="./img/halo1.png" height="300"/>]
+
+Le taux de chômage (au sens du BIT) en France a plutôt eu tendance à baisser depuis 2015
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- Au-delà du chômage, qu'en est-il du **.red[halo autour du chômage]** ? Comprend le travail occasionnel, le sous-emploi ou les personnes inactives
+
+.center[<img src="./img/halo2.png" height="300"/>]
+
+Alors que le Halo du chômage en France a lui fortement augmenté sur la même période..
+
+---
+
+## Un peu de grain à moudre...
+
+> Plus l'indemnisation est élevée, plus elle dure longtemps... 
+
+Really ?
+
+.center[<img src="./img/indemnisation.png" height="370"/>]
+
+.footnote[[source](https://twitter.com/g_allegre/status/1140918174407413761?s=11)]
+
+---
+
 
 class: inverse, center, middle
 

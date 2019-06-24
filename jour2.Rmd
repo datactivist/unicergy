@@ -1,0 +1,159 @@
+---
+title: "Travailler avec les données à des fins journalistiques - Jour 2"
+subtitle: "Master journalisme - Université Cergy"
+author: "Datactivist, 2018-2019"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Master journalisme - Université Cergy, jour 2
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/unicergy/jour2.html
+
+Sources : https://github.com/datactivist/unicergy/
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.center[<img src="./img/ccbysa.png" height="100"/>] 
+
+---
+
+class: inverse, center, middle
+
+# Vos retours sur la journée d'hier
+
+---
+
+## Objectifs de la journée
+
+.red[**Matin**]
+- Exercice pratique : manipuler des données sur tableur Lvl2 [9h-10h25]
+
+*Pause 5 minutes*
+
+- Exercice pratique : manipuler des données sur tableur Lvl3 [10h30-11h15]
+
+- Les différentes sources de données statistiques et d'études [11h15-12h]
+
+*Pause déjeuner 1 heure*
+
+.red[**Après-midi**]
+
+- Exercice pratique : manipuler des données sur tableur Lvl1 [14h15-15h25]
+
+*Pause 5 minutes ?*
+
+- Exercice pratique : manipuler des données sur tableur Lvl2 [15h35-17h]
+
+---
+class: inverse, center, middle
+
+# Back in the game
+
+---
+## Analyse de données via tableur : fonctions
+
+- Vous souhaitez récupérer le nombre de redevables à l'ISF en Ille et Vilaine mais sans utiliser de filtres ou de tri...
+--
+
+Fonction *somme.si*
+
+- Vous souhaitez récupérer le nombre de redevables à l'ISF à Paris mais seuelement dans les arrondissements pour lesquels l'ISF moyen est supérieur à 10 000€ (et sans utiliser de filtres ou de tri...) :)
+
+--
+
+Fonction *somme.si.ens*
+
+
+- On réitère - avec les mêmes contraintes - mais la subtilité c'est qu'on ne veut pas connaitre le montant mais le nombre de villes en Ille et Vilaine redevables à l'ISF
+
+--
+
+Fonction *nb.si*
+
+- Et combien il y a-t-il d'arrondissements parisiens qui ont des redevables avec un ISF moyen supérieur à 10 000€ ? 
+--
+Fonction *nb.si.ens*
+
+---
+## Analyse de données via tableur : recherchev
+
+- Les données de l'ISF sont intéressantes mais il manque une variable clé : .red[**la population**]
+
+- Allez chercher un jeu de données permettant de récupérer les données du recensement démographique commune par commune
+
+- Regardez comment il est construit et trouvez les colonnes qui vous intéressent
+
+- Dans un nouvel onglet sur le classeur ISF, copiez collez les colonnes ISF et rajoutez une colonne dans laquelle vous allez récupérer le nombre d'habitants associés à chaque commune. Utilisez pour cela... la fonction *recherchev*
+
+---
+## Analyse de données via tableur : recherchev
+
+.center[<img src="https://media.giphy.com/media/KHfidaIqN0Sqc/giphy.gif" height="350"/>]
+
+---
+## Analyse de données via tableur : recherchev
+
+- Vous souhaitez maintenant créer une nouvelle colonne avec uniquement le nombre d'habitants majeurs par commune
+
+- Obtenez maintenant la part du nombre d'habitants majeurs redevables à l'ISF
+
++ Quelles sont les communes avec la proportion la plus élevée de redevables ISF ?
+
++ Combien de villes de + de 20 000 habitants n'ont pas au moins 50 redevables à l'ISF ?
+
++ Quelle est la plus grande ville française qui n'a pas au moins 50 redevables ISF ?
+
+
+---
+class:center, middle, inverse
+
+##Pause café : 5 minutes
+
+---
+## Analyse de données via tableur : TCD
+
+- Ouvrez un nouvel onglet
+
+- Intégrez un tableau croisé dynamique sur la plage de l'onglet où vous avez l'ensemble des colonnes créées précédemment
+
+- Intégrez dans votre TCD tous les champs et répartissez les comme suit :
++ Filtres : Pop+20 ans / communes / départements / population
++ Lignes : Région
++ Valeurs : somme du nombre de redevables / moyenne du patrimoine moyen / moyenne de impot moyen / moyenne % redevable ISF +20 ans
+
+- Filtrez en enlevant Guyane, Guadeloupe, Réunion, Martinique
+
+---
+## Analyse de données via tableur : TCD
+
+Vous devriez obtenir le tableau suivant :
+
+.center[<img src="./img/tcd.png" height="350" />]
+
+---
+
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)

@@ -1,0 +1,97 @@
+---
+title: "Travailler avec les données à des fins journalistiques - Jour 3"
+subtitle: "Master journalisme - Université Cergy"
+author: "Datactivist, 2018-2019"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Master journalisme - Université Cergy, jour 3
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/unicergy/jour3.html
+
+Sources : https://github.com/datactivist/unicergy/
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.center[<img src="./img/ccbysa.png" height="100"/>] 
+
+---
+
+class: inverse, center, middle
+
+# Vos retours sur la journée d'hier
+
+---
+
+## Des progrès... au calme !
+
+.center[<img src="https://media.giphy.com/media/3ztiZa4eICWGs/giphy-downsized-large.gif" height="400"/>]
+
+---
+
+## Objectifs de la journée
+
+.red[**Matin**]
+- Exercice pratique : manipuler des données sur tableur Lvl2 [9h-10h25]
+
+*Pause 5 minutes*
+
+- Exercice pratique : manipuler des données sur tableur Lvl3 [10h30-11h15]
+
+- Les différentes sources de données statistiques et d'études [11h15-12h]
+
+*Pause déjeuner 1 heure*
+
+.red[**Après-midi**]
+
+- Les limites des données et les erreurs classiques d'interprétation [13h-14h25]
+
+*Pause 5 minutes*
+
+- Exercice pratique : visualiser des données via Khartis [14h30-16h30]
+
+---
+class: inverse, center, middle
+
+# Back in the game
+
+---
+## Analyse et visualisation de données : ISF
+
+---
+## Analyse et visualisation de données : délinquance
+
+---
+
+class: inverse, center, middle
+
+## Pour aller plus loin
+
+---
+
+
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)

@@ -58,11 +58,11 @@ class: inverse, center, middle
 
 .red[**Après-midi**]
 
-- Exercice pratique : manipuler des données sur tableur Lvl1 [14h15-15h25]
+- Les limites des données et les erreurs classiques d'interprétation [13h-14h25]
 
-*Pause 5 minutes ?*
+*Pause 5 minutes*
 
-- Exercice pratique : manipuler des données sur tableur Lvl2 [15h35-17h]
+- Exercice pratique : visualiser des données via Khartis [14h30-16h30]
 
 ---
 class: inverse, center, middle
